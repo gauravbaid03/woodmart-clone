@@ -1,0 +1,115 @@
+.process {
+    background: #F8F8F7;
+  }
+  
+  .process-left {
+    h3 {
+      font-size: 44px;
+      font-family: 'Playfair Display', serif;
+    }
+  
+    p.stat-title {
+      font-size: 16px;
+      letter-spacing: 4px;
+    }
+  }
+  
+  .count {
+    font-size: 80px;
+    line-height: 90px;
+    font-family: 'Pathway Gothic One', sans-serif;
+  }
+  
+  .process-video {
+    position: relative;
+  }
+  
+  .process-link {
+    font-size: 15px;
+    letter-spacing: 1px;
+    position: absolute;
+    bottom: 3.5%;
+    right: 0;
+    font-weight: bold;
+    color: #ccab4f;
+    background: #ffffff;
+    padding: 20px;
+    transition: all 0.3s;
+  
+    &:hover {
+      color: #292929;
+      background-color: #F8F8F7;
+      text-decoration: none;
+    }
+  }
+  
+  /* responsive CSS */
+  
+  @media only screen and (max-width: 768px) {
+    .showcase-contents li {
+      height: 250px;
+    }
+  
+    .process-left h3 {
+      font-size: 30px;
+    }
+  
+    .tooltips {
+      height: 350px;
+    }
+  
+    .count {
+      font-size: 50px;
+    }
+  
+    .material-text h2 {
+      font-size: 40px;
+    }
+  
+    .tab-content {
+      height: 280px;
+    }
+  }
+  
+  @media only screen and (max-width: 425px) {
+    .tooltips {
+      height: 200px;
+    }
+  
+    .showcase-contents li {
+      height: 170px;
+    }
+  }
+  
+  /* animation for tolltips button*/
+  @keyframes animate {
+    0% {
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0.7), 0 0 0 0 rgba(255, 255, 255, 0.7);
+    }
+  
+    40% {
+      box-shadow: 0 0 0 20px rgba(255, 255, 255, 0), 0 0 0 0 rgba(255, 255, 255, 0.7);
+    }
+  
+    80% {
+      box-shadow: 0 0 0 20px rgba(255, 255, 255, 0), 0 0 0 15px rgba(255, 255, 255, 0);
+    }
+  
+    100% {
+      box-shadow: 0 0 0 0 rgba(255, 255, 255, 0), 0 0 0 15px rgba(255, 255, 255, 0);
+    }
+  }
+  
+  @keyframes fade-in-bottom {
+    0% {
+      opacity: 0;
+      transform: translate(0px, 40px);
+    }
+  
+    100% {
+      opacity: 1;
+      transform: translate(0px, 0px);
+    }
+  }
+  
+  /* limon */

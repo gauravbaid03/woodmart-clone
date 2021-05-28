@@ -1,0 +1,106 @@
+
+
+$primary-color-our-products: #fff;
+
+.our-products-title,
+.our-products-heading {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.our-products-title {
+  font-weight: 700;
+  font-family: "Signika";
+}
+
+.content {
+  text-align: center;
+}
+
+.our-products-container {
+  display: grid;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-bottom: 80px;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  grid-template-rows: 300px;
+  gap: 15px 20px;
+  background-color: $primary-color-our-products;
+}
+
+.our-products-element {
+  position: relative;
+  background-color: $primary-color-our-products;
+  color: $primary-color-our-products;
+  -ms-flex-line-pack: center;
+  align-content: center;
+}
+
+.our-products-container .our-products-element img {
+  display: block;
+  width: 100%;
+  height: 100%;
+}
+
+.our-products-element {
+  .our-products-cart-button {
+    position: absolute;
+    bottom: 0;
+    left: 20px;
+    height: 0px;
+    width: 80%;
+    opacity: 0;
+    transition: height 0.5s;
+    transition: height 0.5s;
+    transition: height 0.5s;
+    background-color: #83b735;
+  }
+
+  &:hover .our-products-cart-button {
+    height: 40px;
+    opacity: 0.9;
+    font-family: "Courier New", Courier, monospace;
+    font-size: large;
+    font-weight: bold;
+    color: $primary-color-our-products;
+  }
+
+  .our-products-icons {
+    position: relative;
+    left: auto;
+    right: auto;
+    opacity: 0.9;
+    bottom: 100%;
+    height: 50%;
+    width: 0px;
+    transition: 0.5s ease;
+    transition: 0.5s ease;
+    transition: 0.5s ease;
+    background-color: $primary-color-our-products;
+  }
+
+  &:hover .our-products-icons {
+    width: 50px;
+    color: #333333;
+  }
+}
+
+.text {
+  display: block;
+  padding-left: 9px;
+  padding-top: 8px;
+  margin-bottom: 20px;
+}
+
+.our-products-button-text {
+  text-align: center;
+  padding-top: 5px;
+  text-transform: uppercase;
+}
+
+.fa {
+  margin-bottom: 18px;
+}
+
+/* Our Products ENDING */

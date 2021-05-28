@@ -1,0 +1,73 @@
+/* Third Component STARTING */
+
+$primary-color-blend: #fff;
+$secondary-color-blend: #000;
+$secondary-text-color-blend: #2d2a2a;
+
+.blend-fruits-section {
+  margin-top: 100px;
+  margin-right: 80px;
+}
+
+.container-half {
+  display: flex;
+  padding: 0 50px;
+}
+
+section {
+  color: $secondary-color-blend;
+  background-color: $primary-color-blend;
+}
+
+.column-four {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.single-item-blend {
+  width: 34%;
+  margin: 0 25px;
+}
+
+.subtle {
+  background-color: #f3f3f3;
+  color: $secondary-text-color-blend;
+}
+
+.text-single-item {
+  font-family: "Signika";
+  color: $secondary-text-color-blend;
+  line-height: 24px;
+  font-weight: 600;
+  padding-bottom: 5px;
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+}
+
+.two-buttons {
+  margin: 25px 50px;
+
+  > button {
+    margin: 0 10px;
+  }
+}
+
+.product-info {
+  margin: 0 -6px;
+
+  > h2 {
+    color: $secondary-text-color-blend;
+    font-family: "Signika", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+  }
+}
+
+.text-single-item-description {
+  color: #777777;
+  font-size: 14px;
+  font-style: italic;
+  margin-top: 2px;
+}
+
+/* Third Component ENDING */

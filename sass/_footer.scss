@@ -1,0 +1,369 @@
+/* Footer STARTING */
+
+.footer {
+  background: #152f4f;
+  color: white;
+
+  .links {
+    ul {
+      list-style-type: none;
+    }
+
+    li a {
+      color: white;
+      transition: color 0.2s;
+      text-decoration: none;
+
+      &:hover {
+        color: #4180cb;
+      }
+    }
+  }
+
+  .about-company {
+    i {
+      font-size: 25px;
+    }
+
+    a {
+      color: white;
+      transition: color 0.2s;
+
+      &:hover {
+        color: #4180cb;
+      }
+    }
+  }
+
+  .location i {
+    font-size: 18px;
+  }
+
+  .copyright p {
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+  }
+}
+
+.copyright-text > .text-white-50 {
+  margin: 0 auto;
+  margin-left: 400px;
+}
+
+.footer-brand {
+  color: #fff;
+  font-weight: bold;
+  font-size: 1.5rem;
+}
+.footer-icon{
+  margin:10px;
+}
+
+.footer .row{
+  margin-left: 100px;
+}
+
+/* footer end */
+@media screen and (max-width: 600px) {
+  .bottomnav {
+    height: 100px;
+
+    .bottom-nav-icon {
+      margin-top: 22px;
+      margin-left: 150px;
+      text-align: center;
+    }
+  }
+  
+
+  .section--home {
+    background-size: cover;
+    height: 1000px;
+
+
+    img {
+      display: flex;
+      width: 100%;
+      float: right;
+      margin-top: -50px;
+    }
+  }
+  
+
+  .centered-text {
+    margin-left: 100px;
+    color: white;
+  }
+
+  .text-below-center {
+    color: white;
+    font-size: 20px;
+    margin-left: 109px;
+  }
+
+  .juice-bottel {
+    margin-top: -200px;
+    margin-bottom: 0px;
+    height:10%;
+    width:10%;
+    transform: scale(0.4,0.4)  translate(700px,-2100px);
+
+  }
+
+  .leaf {
+    margin-right: 330px;
+    margin-top: -200px;
+    margin-bottom: 0px;
+    height:10%;
+    width:10%;
+    transform: scale(0.4,0.4) translate(600px,-4750px);
+  }
+
+  .viewmore {
+    margin-left: 100px;
+    height: 70px;
+    width: 150px;
+    font-size: 20px;
+  }
+
+  .shopnow {
+    height: 70px;
+    width: 150px;
+    font-size: 20px;
+  }
+
+  .box-in-middel {
+    margin-left: 200px;
+    width: 600px;
+  }
+
+  .container {
+    margin-left: -30px;
+    transform: translate(0px,-100px);
+    height:100%;
+  }
+
+  .img-large-left {
+    width: 100%;
+    height: auto;
+  }
+  .single-item-right{
+    width: 1000px;
+  }
+  .card-title {
+    font-size: 35px;
+  }
+
+  .how-it-works-heading {
+    margin-left: 470px;
+  }
+
+  .how-it-works-left {
+    text-align: center;
+    font-size: 25px;
+    margin-left: 15px;
+  }
+
+  .how-it-works {
+    margin-left: 450px;
+  }
+
+  .howi-t-works-image {
+    margin-top: 340px;
+    grid-row: 3/4;
+    margin-left: -10px;
+  }
+
+  .how-it-works-right {
+    text-align: center;
+    font-size: 25px;
+    grid-row: 4/5;
+    margin-left: 15px;
+  }
+
+  .content,
+  .our-products-container {
+    display: none;
+  }
+
+  .counter-section {
+    text-align: left;
+    grid-template-columns: minmax(0, 2fr);
+    font-size: 25px;
+    text-align: center;
+  }
+
+  ​​ {
+    .ingredients {
+      grid-template-columns: minmax(0, 1fr);
+    }
+
+    .punchimage {
+      margin-left: 260px;
+    }
+  }
+
+  .counter-section-item {
+    text-align: center;
+    margin-left: 30px;
+  }
+
+  .bottom-grid h3 {
+    font-size: 30px;
+  }
+
+  .carefully-picked {
+    grid-row: 1/2;
+    width: 75%;
+    font-size: 25px;
+  }
+
+  .freshly-made {
+    grid-row: 3/4;
+    width: 75%;
+    font-size: 25px;
+  }
+
+  .securely-packed {
+    grid-row: 4/5;
+    width: 75%;
+    font-size: 25px;
+  }
+
+  .best-ingredients {
+    grid-row: 5/6;
+    width: 75%;
+    font-size: 25px;
+  }
+  .blend-fruits-section{
+    display: none;
+  }
+
+  .product-info p {
+    font-size: 30px;
+  }
+
+  .gotoshop {
+    font-size: 20px;
+    width: 160px;
+    height: 80px;
+  }
+
+  .Our-Blog .box {
+    width: 45%;
+    margin-right: 150px;
+    font-size: 20px;
+    margin-top: 30px;
+  }
+
+  .our-blog-content p {
+    font-size: 20px;
+  }
+
+  .testimonial,
+  .name {
+    font-size: 25px;
+  }
+
+  .featured-product-zoom,
+  .card-center {
+    width: 100%;
+  }
+
+  .carefully-picked,
+  .freshly-made,
+  .securely-packed,
+  .best-ingredients {
+    margin: 0 auto;
+  }
+
+  .footer,
+  .navbar-brand {
+    font-size: 30px;
+  }
+
+  .footer .row {
+    margin-left: 100px;
+  }
+}
+
+@media screen and (max-width: 835px) {
+  .topnav {
+    display: none;
+  }
+
+  .bottomnav {
+    display: inline-block;
+  }
+
+  .button2 {
+    display: none;
+  }
+}
+
+@media screen and (min-width: 601px) and (max-width: 1200px) {
+  .single-item-right {
+    display: none;
+  }
+
+  .img-large-left {
+    width: 120%;
+  }
+
+  .col-10 {
+    width: 100%;
+  }
+
+  .featured-product-zoom {
+    width: 500px;
+    margin-left: -100px;
+  }
+
+  /* Blend fruits section: start */
+
+  .container-half,
+  .col-sm-8 {
+    margin-right: 800px;
+  }
+
+  .col-sm-4 {
+    margin-top: -500px;
+    margin-left: 700px;
+  }
+
+  /* Blend fruits section: end */
+  /*carefully picked section: start*/
+
+  .bottom-grid {
+    display: grid;
+    grid-template-columns: 50% 50%;
+  }
+
+  .carefully-picked {
+    width: 100%;
+  }
+
+  .freshly-made {
+    width: 100%;
+  }
+
+  .securely-packed {
+    width: 100%;
+  }
+
+  .best-ingredients {
+    width: 100%;
+  }
+
+  .bottomnav i {
+    margin-top: 22px;
+    margin-left: 150px;
+    text-align: center;
+  }
+
+  .footer {
+    .container,
+    .row {
+      margin-left: 100px;
+    }
+  }
+}

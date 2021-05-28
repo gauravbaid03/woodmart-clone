@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <style type="text/css">
+      html {
+        font-size: 200%;
+      }
+    </style>
+    <script
+      type="text/javascript"
+      src="http://ajax.microsoft.com/ajax/jquery/jquery-1.4.2.min.js"
+    ></script>
+    <script type="text/javascript">
+      $(function () {
+        $("#find-link").click(function (e) {
+          e.preventDefault();
+
+          log("Searching...");
+
+          if (typeof navigator.geolocation != "object") {
+            log("No geo support. :(");
+            return;
+          }
+
+          navigator.geolocation.getCurrentPosition(
+            displayLocation,
+            locationError,
+            {
+              timeout: 5000,
+              maximumAge: 60000,
+              enableHighAccuracy: true,
+            }
+          );
+        });
+      });
+
+      function displayLocation(loc) {
+        log("lat: " + loc.coords.latitude + ", lon: " + loc.coords.longitude);
+      }
+
+      function locationError(error) {
+        switch (error.code) {
+          case error.TIMEOUT:
+            log("Ooops.. Too long.");
+            break;
+          case error.PERMISSION_DENIED:
+            log("Sad face. :(");
+            break;
+          default:
+            log("Oh noes!");
+        }
+      }
+
+      function log(text) {
+        $("<li></li>").text(text).prependTo("#location-updates");
+      }
+    </script>
+  </head>
+  <body>
+    <div>
+      <a id="find-link" href="http://www.bing.com/search?q=pizza+shop"
+        >Find nearest store</a
+      >
+    </div>
+    <ul id="location-updates"></ul>
+  </body>
+</html>

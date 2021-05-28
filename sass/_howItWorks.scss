@@ -1,0 +1,55 @@
+/*How it works : start*/
+
+.how-it-works-heading {
+  margin-top: 80px;
+  font-size: 50px;
+  color: black;
+  font-weight: bold;
+  font-family: "Signika";
+  margin-left: 500px;
+}
+
+.how-it-works {
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  grid-gap: 0px;
+  margin-left: 50px;
+
+  > div {
+    padding: 20px 0;
+    color: black;
+  }
+}
+
+.how-it-works-left {
+  font-size: 20px;
+  width: 320px;
+  height: 300px;
+  text-align: right;
+  padding-left: 0px;
+
+  li {
+    list-style: none;
+    margin-top: 10px;
+  }
+}
+
+.howi-t-works-image {
+  width: 500px;
+  margin-left: 50px;
+}
+
+.how-it-works-right {
+  font-size: 20px;
+  width: 320px;
+  text-align: left;
+  margin-left: -100px;
+  padding-left: 0px;
+
+  li {
+    list-style: none;
+    margin-top: 10px;
+  }
+}
+
+/* How it works : end*/

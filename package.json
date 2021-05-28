@@ -1,0 +1,27 @@
+{
+  "name": "empty-folder",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "watch": "node-sass -o css sass/main.scss -w"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.21.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-plugin-import": "^2.22.1",
+    "node-sass": "^5.0.0"
+  },
+  "dependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Pulkit1810/WoodMart.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Pulkit1810/WoodMart/issues"
+  },
+  "homepage": "https://github.com/Pulkit1810/WoodMart#readme",
+  "description": ""
+}

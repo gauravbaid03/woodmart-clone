@@ -1,0 +1,27 @@
+<html>
+ <title>A unit test for drw.SystemUnderTest class</title>
+ <head>
+  <script type='text/javascript' src='../jsunit/app/jsUnitCore.js'></script>
+  <script type='text/javascript' src='../jsunit/user.js'></script>
+  
+ </head>
+ <body>
+<input type="text" name="name" id="user"  >
+</body>
+<script type='text/javascript'>
+
+    function setUp(){
+      console.log("i am setup");
+    }
+
+    function tearDown() {
+      console.log("i am setup");
+    }
+
+    function testOneThing(){
+      var sut = add("Bret");
+      console.log(sut);
+      assertEquals("Bret", sut);
+    }
+  </script>
+</html>

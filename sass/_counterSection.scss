@@ -1,0 +1,43 @@
+/* Counter section STARTING */
+
+.counter-section {
+  display: grid;
+  grid-template-columns: auto auto;
+  background-color: #ff4f63;
+  padding: 10px;
+  color: white;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.counter-section-item {
+  padding: 20px;
+
+  /* font-size: 30px; */
+  text-align: left;
+}
+
+.ingredients {
+  display: grid;
+  grid-template-columns: auto auto auto;
+
+  /* padding: 10px; */
+}
+
+.ingredients-item {
+  /* /padding: 20px;/ */
+  // font-size: 20px;
+  text-align: left;
+}
+
+.counter-section-variables{
+  font-size: 25px;
+  font-weight: bold;
+}
+
+.ingredients-item > .counter {
+  font-size: 30px;
+  font-weight: bold;
+}
+
+/* Counter section ENDING */

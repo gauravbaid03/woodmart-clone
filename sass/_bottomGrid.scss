@@ -1,0 +1,86 @@
+/* carefully picked STARTING */
+
+$bottom-grid-primary-color: #fff;
+
+.bottom-grid {
+  margin-right: 20px;
+  padding: 0;
+  display: grid;
+  min-width: 100vw;
+  grid-template-columns: auto auto auto auto;
+  color: $bottom-grid-primary-color;
+  grid-gap: 0px;
+}
+
+.head {
+  font-size: 25px;
+  font-weight: bold;
+}
+
+
+.freshly-made {
+  background-color: #fea443;
+  height: 300px;
+  width: 25vw;
+  padding: 20px;
+}
+
+
+
+
+.bottom-grid > .bottom-grid-number {
+  font-size: 40px;
+  font-weight: 800;
+  color: $bottom-grid-primary-color;
+  text-align: left;
+}
+
+.read-more {
+  color: $bottom-grid-primary-color;
+  text-transform: uppercase;
+}
+
+.grid {
+  display: flex;
+  min-width: 100vw;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  color: $bottom-grid-primary-color;
+}
+
+.carefully-picked {
+  background-color: #8871bf;
+  height: 300px;
+  width: 25vw;
+  padding: 20px;
+}
+
+
+.securely-packed {
+  background-color: #f46277;
+  height: 300px;
+  width: 25vw;
+  padding: 20px;
+}
+
+.best-ingredients {
+  background-color: #aebd7c;
+  height: 300px;
+  width: 25vw;
+  padding: 20px;
+}
+
+.bottom-grid-number {
+  margin-top: 10px;
+  font-size: 40px;
+  font-weight: 800;
+  color: $bottom-grid-primary-color;
+  text-align: left;
+}
+
+.read-more {
+  color: $bottom-grid-primary-color;
+  text-transform: uppercase;
+}
+
+/* carefully picked ENDING */

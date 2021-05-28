@@ -1,0 +1,141 @@
+/* Home Section Starting */
+
+.section--home {
+  background-image: url("../assets/images/download7.png");
+  background-color: #ffb84d;
+  height: 700px;
+  width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  padding-top: 220px;
+  flex: none;
+  animation-name: sample;
+  animation-duration: 20s;
+  animation-iteration-count: 10;
+  animation-delay: 5s;
+  margin-bottom: 100px;
+}
+
+.centered-text {
+  font-size: 50px;
+  color: #803300;
+  font-weight: bold;
+  margin-top: -350px;
+  margin-left: 225px;
+}
+
+.text-below-center {
+  font-size: 15px;
+  font-weight: bold;
+  margin-left: 225px;
+  margin-top: 80px;
+}
+
+.juice-bottel {
+  height: 601px;
+  width: 492px;
+  margin-top: -400px;
+  margin-left: 550px;
+}
+
+.leaf {
+  height: 20%;
+  width: 45%;
+  margin-top: -640px;
+  margin-left: 95px;
+  top: 40%;
+  margin-bottom: 340px;
+  bottom: 80%;
+
+  &:hover {
+    transform: scale(1.1);
+  }
+}
+
+.box-in-middel {
+  border: 2px solid #ffd699;
+  border-width: 20px;
+  align-self: center;
+  margin-left: 250px;
+  margin-bottom: 100px;
+  padding-bottom: 100px;
+  height: 200px;
+  width: 500px;
+}
+
+.home-section-content,
+.centered-text {
+  font-weight: 800;
+  color: #fff;
+}
+
+.viewmore {
+  background-color: #83b735;
+  border: none;
+  color: white;
+  padding: 15px;
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px 2px;
+  border-radius: 22px;
+  margin-left: 225px;
+  font-size: 10px;
+  font-weight: 700;
+}
+
+/* Ripple effect */
+
+.ripple {
+  background-position: center;
+  transition: background 0.8s;
+
+  &:hover {
+    color: #fff;
+    background: #83b735 radial-gradient(circle, transparent 1%, #4caf50 1%)
+      (center / 15000%);
+  }
+
+  &:active {
+    background-color: #4caf50;
+    background-size: 100%;
+    transition: background 0s;
+  }
+}
+
+
+.gotoshop {
+  padding: 15px;
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px 2px;
+  border-radius: 22px;
+  margin-left: 30px;
+  font-size: 10px;
+  font-weight: 700;
+  background-color: white;
+  color: green;
+  border: 1px solid #83b735;
+}
+
+.shopnow {
+  padding: 15px;
+  width: 120px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  margin: 2px 2px;
+  border-radius: 22px;
+  margin-left: 30px;
+  font-size: 10px;
+  font-weight: 700;
+  background-color: white;
+  color: green;
+  border: 1px solid #ff944d;
+}
+
+/* Home Section Ending */

@@ -1,0 +1,186 @@
+/*Our Blogs*/
+
+.our-blogs {
+  margin: 100px 0;
+}
+
+.our-blogs-heading {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+
+.our-blogs-title {
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 20px;
+  font-weight: 700;
+  font-family: "Signika";
+}
+
+.svg-icon {
+  color: #777;
+  text-rendering: optimizeLegibility;
+  text-align: center;
+  box-sizing: border-box;
+  border: 0;
+  vertical-align: baseline;
+  font: inherit;
+  font-size: 100%;
+  display: inline-block;
+  margin-top: 10px;
+  width: 160px;
+  height: 36px;
+  display: inline-block;
+  margin: 0 550px;
+  margin-bottom: 30px;
+}
+
+.Our-Blog {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+  width: 1100px;
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: 80px;
+
+  .box {
+    position: relative;
+    margin: 10px;
+    width: 340px;
+    height: 300px;
+
+    /* overflow: hidden; */
+    transition: 0.5s;
+  }
+}
+
+.our-products-cart-button {
+  position: absolute;
+  background-color: #83ac2b;
+  padding: 3px;
+  bottom: -20px;
+  left: 90px;
+  color: #fff;
+  z-index: 10;
+}
+
+.Our-Blog {
+  .box {
+    &:hover {
+      z-index: 1;
+      transform: scale(1.25);
+      box-shadow: 0 25px 40px rgba(0, 0, 0, 0.5);
+    }
+
+    .imgBx {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .wooden-accessories .imgBx:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(180deg, #b87072, #000);
+    mix-blend-mode: multiply;
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .design-trends .imgBx:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(180deg, #92b020, #000);
+    mix-blend-mode: multiply;
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .light-filled .imgBx:before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    background: linear-gradient(180deg, #d0b999, #000);
+    mix-blend-mode: multiply;
+    opacity: 0;
+    transition: 0.5s;
+  }
+
+  .box {
+    &:hover .imgBx:before {
+      opacity: 1;
+    }
+
+    .imgBx img {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      object-fit: cover;
+    }
+
+    .content {
+      position: absolute;
+      top: 0;
+      left: 0;
+      width: 100%;
+      height: 100%;
+      z-index: 2;
+      display: flex;
+      padding: 20px;
+      align-items: flex-end;
+      visibility: hidden;
+
+      h2 {
+        color: #fff;
+        transition: 0.5s;
+        text-transform: uppercase;
+        margin-bottom: 5px;
+        font-size: 20px;
+        transform: translateY(200px);
+      }
+    }
+
+    &:hover .content h2 {
+      transform: translateY(0);
+      transition-delay: 0.3s;
+      visibility: visible;
+    }
+
+    .content p {
+      color: #fff;
+      transform: translateY(200px);
+      transition: 0.5s;
+      font-size: 14px;
+    }
+
+    &:hover .content p {
+      transform: translateY(0);
+      transition-delay: 0.4s;
+      visibility: visible;
+    }
+  }
+}
+
+/*Our Blogs Ending*/
